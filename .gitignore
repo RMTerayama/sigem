@@ -1,0 +1,23 @@
+vendor
+phpunit.phar
+phpunit.phar.asc
+composer.phar
+composer.lock
+.phpunit.result.cache
+.php-cs-fixer.cache
+# Ignorar imagens
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+vendor/*
+# Ignorar PDFs
+*.pdf
+
+# Ignorar diretórios específicos (exemplo: pasta de imagens)
+imagens/
+
+# Ignorar arquivos temporários do sistema (exemplo: arquivos de log)
+*.log
