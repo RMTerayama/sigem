@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Aktiv+Grotesk:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Aktiv Grotesk', sans-serif;
+    background-color: #f0f0f0;
+}
+
+img {
+    width: 20vw;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+}
+.right input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.right button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.right button:hover {
+    background-color: #0056b3;
+}
+a {
+    margin-top: 20px;
+    color: #007bff;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+}
+.left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+@media screen and (max-width: 600px) {
+    img{
+        width: 70vw;
+        
+    }
+  
+}

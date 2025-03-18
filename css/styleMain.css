@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+.navbar {
+    background-color: #004F99;
+    color: white;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    padding: 10px;
+    list-style-type: none;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul li {
+    display: block;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.logo {
+    width: 100px; /* Aumentado o tamanho da imagem */
+    height: auto;
+    margin-right: 10px;
+}
+footer {
+    background-color: #004F99;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    
+}
+@media (max-width: 1280px) { /* Aplica-se a celulares e tablets */
+
+    footer {
+       margin-top: 20vw;
+       position: fixed;
+       width: 100%; /* Garante que o footer ocupe toda a largura */
+       bottom: 0; /* Mantém fixo na parte inferior */
+    }
+    .pagination{
+        margin-bottom: 15vw;
+    }
+}
+

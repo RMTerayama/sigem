@@ -1,0 +1,95 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.table-responsive {
+    margin-top: 20px;
+}
+.btn-add-item {
+    margin: 20px 0;
+}
+.form-control {
+    width: 250px;
+    margin-bottom: 20px;
+}
+.input-quantity {
+    width: 100px;
+}
+.btn-increment, .btn-save, .btn-edit {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+.btn-increment:hover, .btn-save:hover, .btn-edit:hover {
+    transform: scale(1.1);
+}
+.btn-increment {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+.btn-save {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+.btn-edit {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: white;
+}
+.editable {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+.input-quantity {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+.material-icons {
+    font-size: 18px;
+}
+.table-responsive{
+    margin-bottom: 10vw;
+    max-height: 55vh;
+    overflow-y: auto;
+    position: relative;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+thead {
+    position: sticky;
+    top: 0;
+    background: white; /* Garante que o fundo do cabeçalho fique visível */
+    z-index: 1020; /* Garante que fique acima do conteúdo */
+}
+.add-item{
+    margin: 1vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.add-item button{
+    font-size: 15px;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    .table-responsive {
+        margin-bottom: 30vw;
+    }
+}
