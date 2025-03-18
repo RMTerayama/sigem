@@ -1,0 +1,3 @@
+[submodule "vendor/dompdf/php-font-lib"]
+    path = vendor/dompdf/php-font-lib
+    url = <URL do repositório do submódulo>
